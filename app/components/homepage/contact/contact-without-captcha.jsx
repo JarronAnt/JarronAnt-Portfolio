@@ -22,9 +22,9 @@ function ContactWithoutCaptcha() {
   };
 
   const handleSendMail = () => {
-    const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
-    const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
-    const options = { publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY };
+    const serviceID = "service_ha9mzib";
+    const templateID = "template_qo2fifi";
+    const options = { publicKey: "NDKE6HBbVhruONKxd" };
 
     console.log(userInput);
     
