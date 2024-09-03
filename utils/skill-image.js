@@ -48,6 +48,7 @@ import nginx from '/public/svg/skills/nginx.svg';
 import numpy from '/public/svg/skills/numpy.svg';
 import nuxtJS from '/public/svg/skills/nuxtJS.svg';
 import opencv from '/public/svg/skills/opencv.svg';
+import OpenGL from '/public/svg/skills/OpenGl.svg';
 import photoshop from '/public/svg/skills/photoshop.svg';
 import php from '/public/svg/skills/php.svg';
 import picsart from '/public/svg/skills/picsart.svg';
@@ -79,6 +80,8 @@ export const skillsImage = (skill) => {
   switch (skillID) {
     case 'gcp':
       return gcp;
+    case 'OpenGL':
+      return OpenGL;
     case 'html':
       return html;
     case 'photoshop':
